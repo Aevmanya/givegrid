@@ -59,7 +59,7 @@
         <label class="mb-1">Username</label>
         <input type="text" th:field="*{username}" required class="form-control mb-3"/>
 
-        <label class="mb-1">Email (optional)</label>
+        <label class="mb-1">Email</label>
         <input type="email" th:field="*{email}" class="form-control mb-3"/>
 
         <label class="mb-1">Password</label>
@@ -67,8 +67,8 @@
 
         <label class="mb-1">Account Type</label>
         <select th:field="*{role}" class="form-select mb-4">
-            <option value="BUYER">Buyer</option>
-            <option value="SELLER">Seller</option>
+            <option value="BUYER">Donor</option>
+            <option value="SELLER">Organisation</option>
         </select>
 
         <button type="submit" class="btn btn-primary4 w-100 py-2">
