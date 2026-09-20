@@ -67,14 +67,14 @@
 <div class="container mt-5">
     <h2 class="mb-4">Your Donation Basket</h2>
 
-    <!-- If cart empty -->
+    <!-- If donation basket is empty -->
     <div th:if="${items.size() == 0}">
         <div class="alert alert-info">
             Your donation basket is empty.
         </div>
     </div>
 
-    <!-- If cart has items -->
+    <!-- If donation basket has items -->
     <div th:if="${items.size() > 0}" class="card p-3">
 
         <table class="table">
