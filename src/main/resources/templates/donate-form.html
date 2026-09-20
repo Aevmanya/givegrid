@@ -22,7 +22,7 @@
                         <span th:text="${item.product.quantity}">0</span>
 
                         &nbsp;|&nbsp;
-                        <small>In cart:
+                        <small>In donation basket:
                             <span th:text="${item.quantity}">0</span>
                         </small>
                     </p>
@@ -31,7 +31,7 @@
                 <div class="col-md-6">
                     <label>How many units do you want to donate?</label>
 
-                    <!-- ✔ FIXED: correct max based on cart quantity -->
+                    <!-- ✔ FIXED: correct max based on donation basket quantity -->
                     <input id="donateCount"
                            type="number"
                            name="donateCount"
